@@ -1,3 +1,5 @@
-# Data_Science_Projects
-Data Science Projects 
+# Data Science Projects
+### 1. Regression
+### 2. Classification
+### 3. Data Visualization
 
