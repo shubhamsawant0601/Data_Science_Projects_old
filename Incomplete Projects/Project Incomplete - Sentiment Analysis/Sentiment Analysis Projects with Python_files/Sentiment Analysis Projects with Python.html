@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!-- saved from url=(0083)https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/ -->
+<html lang="en-US" class="jetpack-lazy-images-js-enabled"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="YX6tSGKaTXvTxyTPwg0ufKpYPgmVXpGnr2hVaICII50">
+<meta name="msvalidate.01" content="2633057DB01A917911F59FDC6320756B">
+
+	<!-- This site is optimized with the Yoast SEO plugin v16.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Sentiment Analysis Projects with Python</title>
+	<meta name="description" content="In this article, I will introduce you to 6 sentiment analysis projects with Python for Machine Learning. Sentiment Analysis Projects with Python.">
+	<link rel="canonical" href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Sentiment Analysis Projects with Python">
+	<meta property="og:description" content="In this article, I will introduce you to 6 sentiment analysis projects with Python for Machine Learning. Sentiment Analysis Projects with Python.">
+	<meta property="og:url" content="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/">
+	<meta property="og:site_name" content="Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript">
+	<meta property="article:publisher" content="https://www.facebook.com/thecleverprogrammer">
+	<meta property="article:author" content="https://www.facebook.com/thecleverprogrammer">
+	<meta property="article:published_time" content="2020-11-25T03:58:24+00:00">
+	<meta property="article:modified_time" content="2020-11-25T03:58:25+00:00">
+	<meta property="og:image" content="https://thecleverprogrammer.com/wp-content/uploads/2020/11/6-Sentiment-Analysis-Projects-with-Python-Solved-and.png">
+	<meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="720">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@amankk_9">
+	<meta name="twitter:site" content="@amankk_9">
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="Aman Kharwal">
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="1 minute">
+	<script type="text/javascript" async="" src="./Sentiment Analysis Projects with Python_files/ga.js.download"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thecleverprogrammer.com/#website","url":"https://thecleverprogrammer.com/","name":"Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript","description":"Learn Python, C++, Coding, Machine Learning, Data Science, Artificial Intelligence and JavaScript.","publisher":{"@id":"https://thecleverprogrammer.com/#/schema/person/846474f6a64a2bcf3beec256fb22260b"},"potentialAction":[{"@type":"SearchAction","target":"https://thecleverprogrammer.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#primaryimage","inLanguage":"en-US","url":"https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/6-Sentiment-Analysis-Projects-with-Python-Solved-and.png?fit=1280%2C720&ssl=1","contentUrl":"https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/6-Sentiment-Analysis-Projects-with-Python-Solved-and.png?fit=1280%2C720&ssl=1","width":1280,"height":720,"caption":"Sentiment Analysis Projects with Python"},{"@type":"WebPage","@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#webpage","url":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/","name":"Sentiment Analysis Projects with Python","isPartOf":{"@id":"https://thecleverprogrammer.com/#website"},"primaryImageOfPage":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#primaryimage"},"datePublished":"2020-11-25T03:58:24+00:00","dateModified":"2020-11-25T03:58:25+00:00","description":"In this article, I will introduce you to 6 sentiment analysis projects with Python for Machine Learning. Sentiment Analysis Projects with Python.","breadcrumb":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/"]}]},{"@type":"BreadcrumbList","@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://thecleverprogrammer.com/","url":"https://thecleverprogrammer.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://thecleverprogrammer.com/machine-learning/","url":"https://thecleverprogrammer.com/machine-learning/","name":"All Articles"}},{"@type":"ListItem","position":3,"item":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#webpage"}}]},{"@type":"Article","@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#article","isPartOf":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#webpage"},"author":{"@id":"https://thecleverprogrammer.com/#/schema/person/846474f6a64a2bcf3beec256fb22260b"},"headline":"Sentiment Analysis Projects with Python","datePublished":"2020-11-25T03:58:24+00:00","dateModified":"2020-11-25T03:58:25+00:00","mainEntityOfPage":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#webpage"},"wordCount":169,"commentCount":0,"publisher":{"@id":"https://thecleverprogrammer.com/#/schema/person/846474f6a64a2bcf3beec256fb22260b"},"image":{"@id":"https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#primaryimage"},"thumbnailUrl":"https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/6-Sentiment-Analysis-Projects-with-Python-Solved-and.png?fit=1280%2C720&ssl=1","keywords":["Machine Learning"],"articleSection":["Machine Learning"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#respond"]}]},{"@type":["Person","Organization"],"@id":"https://thecleverprogrammer.com/#/schema/person/846474f6a64a2bcf3beec256fb22260b","name":"Aman Kharwal","image":{"@type":"ImageObject","@id":"https://thecleverprogrammer.com/#personlogo","inLanguage":"en-US","url":"https://thecleverprogrammer.com/wp-content/uploads/2020/04/70019406_2378160285838733_2250032365923467264_o.jpg","contentUrl":"https://thecleverprogrammer.com/wp-content/uploads/2020/04/70019406_2378160285838733_2250032365923467264_o.jpg","width":960,"height":960,"caption":"Aman Kharwal"},"logo":{"@id":"https://thecleverprogrammer.com/#personlogo"},"description":"Coder with the \u2764\ufe0f of a Writer || Data Scientist | Solopreneur | Founder","sameAs":["http://Thecleverprogrammer.com","https://www.facebook.com/thecleverprogrammer","https://www.instagram.com/aman.kharwal/","https://www.linkedin.com/in/aman-kharwal-566baa146/","https://twitter.com/amankk_9","https://www.youtube.com/channel/UCeO9hPCfRzqb2yTuAn713Mg"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://secure.gravatar.com/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="dns-prefetch" href="https://widgets.wp.com/">
+<link rel="dns-prefetch" href="https://jetpack.wordpress.com/">
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://s1.wp.com/">
+<link rel="dns-prefetch" href="https://s2.wp.com/">
+<link rel="dns-prefetch" href="https://public-api.wordpress.com/">
+<link rel="dns-prefetch" href="https://0.gravatar.com/">
+<link rel="dns-prefetch" href="https://1.gravatar.com/">
+<link rel="dns-prefetch" href="https://2.gravatar.com/">
+<link rel="dns-prefetch" href="https://i0.wp.com/">
+<link rel="dns-prefetch" href="https://i1.wp.com/">
+<link rel="dns-prefetch" href="https://i2.wp.com/">
+<link rel="dns-prefetch" href="https://c0.wp.com/">
+<link rel="alternate" type="application/rss+xml" title="Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript » Feed" href="https://thecleverprogrammer.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript » Comments Feed" href="https://thecleverprogrammer.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript » Sentiment Analysis Projects with Python Comments Feed" href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thecleverprogrammer.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Sentiment Analysis Projects with Python_files/wp-emoji-release.min.js(1).download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<noscript><link rel='stylesheet' href='https://thecleverprogrammer.com/wp-content/themes/blocksy/static/bundle/no-scripts.css' type='text/css' /></noscript>
+<style id="ct-main-styles-inline-css" type="text/css">header [data-row="bottom"] {--height:80px;}[data-behavior*="static"] [data-row="bottom"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="bottom"][data-border] {--borderTop:none;--borderBottom:none;}[data-id="button"] .ct-button-ghost {--buttonTextInitialColor:var(--buttonInitialColor);--buttonTextHoverColor:#ffffff;}.ct-header-cart i {--iconSize:15px;}.ct-header-cart > a {--linkInitialColor:var(--color);}.ct-header-cart {--cartBadgeBackground:var(--paletteColor1);--cartBadgeText:#ffffff;}.ct-cart-content {--dropdownTopOffset:15px;--linkInitialColor:#ffffff;--backgroundColor:#29333C;}.custom-logo-link {--maxHeight:50px;}.site-title {--fontWeight:700;--fontSize:25px;--lineHeight:1.5;--linkInitialColor:var(--paletteColor4);}.site-description {--fontWeight:500;--fontSize:13px;}.header-menu-1 {--menuItemsSpacing:25px;--menuIndicatorActiveColor:var(--paletteColor1);}.header-menu-1 > ul {--height:100%;}.header-menu-1> ul > li > a {--fontWeight:700;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.3;}.header-menu-1 > ul > li > a {--linkInitialColor:var(--color);--colorHoverType3:#ffffff;}.header-menu-1 .sub-menu {--marginTop:15px;--width:200px;--fontWeight:500;--fontSize:12px;--linkInitialColor:#ffffff;--dropDownDivider:1px dashed rgba(255, 255, 255, 0.1);--backgroundColor:#29333C;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}.header-menu-1 .sub-menu li {--padding:13px;}.header-menu-2 {--menuItemsSpacing:25px;--menuIndicatorActiveColor:var(--paletteColor1);}.header-menu-2 > ul {--height:100%;}.header-menu-2> ul > li > a {--fontWeight:700;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.3;}.header-menu-2 > ul > li > a {--linkInitialColor:var(--color);--colorHoverType3:#ffffff;}.header-menu-2 .sub-menu {--marginTop:15px;--width:200px;--fontWeight:500;--fontSize:12px;--linkInitialColor:#ffffff;--dropDownDivider:1px dashed rgba(255, 255, 255, 0.1);--backgroundColor:#29333C;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}.header-menu-2 .sub-menu li {--padding:13px;}header [data-row="middle"] {--height:82px;}[data-behavior*="static"] [data-row="middle"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="middle"][data-border] {--borderTop:none;--borderBottom:none;}.mobile-menu {--fontWeight:700;--fontSize:30px;--linkInitialColor:#ffffff;}#offcanvas {--backgroundImage:none;--backgroundColor:rgba(18, 21, 25, 0.98);}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;--linkInitialColor:var(--color);}#search-modal {--linkInitialColor:#ffffff;--backgroundImage:none;--backgroundColor:rgba(18, 21, 25, 0.98);}[data-id="socials"] {--iconSize:15px;--spacing:15px;}[data-id="socials"] [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}[data-id="socials"] .ct-label {--visibility:none;}[data-id="text"] {--maxWidth:100%;--fontSize:15px;--lineHeight:1.3;}header [data-row="top"] {--height:50px;}[data-behavior*="static"] [data-row="top"] {--backgroundImage:none;--backgroundColor:#f9f9f9;}header [data-row="top"][data-border] {--borderTop:none;--borderBottom:none;}.ct-header-trigger {--linkInitialColor:var(--color);--secondColor:#eeeeee;--secondColorHover:#eeeeee;}[data-behavior] {--backgroundImage:none;--backgroundColor:#ffffff;}.site-footer [data-row="bottom"] > div {--itemsGap:60px;--containerSpacing:25px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;}.site-footer [data-row="bottom"] .ct-widget {--linkInitialColor:var(--color);}.site-footer [data-row="bottom"] [data-divider="columns"] {--border:none;}.site-footer [data-row="bottom"] {--borderTop:none;--borderBottom:none;--backgroundImage:none;--backgroundColor:#eef0f4;}.ct-footer-copyright {--fontWeight:400;--fontSize:15px;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:25px;}[data-column="menu"] {--alignment:flex-start;--vertical-alignment:flex-start;}.footer-menu ul {--fontWeight:700;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.3;}.footer-menu > ul > li > a {--linkInitialColor:var(--color);}.site-footer [data-row="middle"] > div {--itemsGap:60px;--containerSpacing:70px;--gridTemplateColummns:repeat(3, 1fr);}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;}.site-footer [data-row="middle"] .ct-widget {--linkInitialColor:var(--color);}.site-footer [data-row="middle"] [data-divider="columns"] {--border:none;}.site-footer [data-row="middle"] {--borderTop:none;--borderBottom:none;--backgroundImage:none;--backgroundColor:transparent;}.ct-footer-socials {--iconSize:15px;--spacing:15px;}[data-column="socials"] {--horizontal-alignment:flex-start;--vertical-alignment:flex-start;}.ct-footer-socials [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--itemsGap:60px;--containerSpacing:30px;--gridTemplateColummns:repeat(2, 1fr);}.site-footer [data-row="top"] .widget-title {--fontSize:16px;}.site-footer [data-row="top"] .ct-widget {--linkInitialColor:var(--color);}.site-footer [data-row="top"] [data-divider="columns"] {--border:none;}.site-footer [data-row="top"] {--borderTop:none;--borderBottom:none;--backgroundImage:none;--backgroundColor:#eef0f4;}.site-footer {--backgroundImage:none;--backgroundColor:#f4f5f8;}:root {--fontFamily:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';--fontWeight:400;--textTransform:none;--textDecoration:none;--fontSize:17px;--lineHeight:1.65;--letterSpacing:0em;--buttonFontWeight:500;--buttonFontSize:15px;--formFontSize:15px;--formInputHeight:45px;--formBorderInitialColor:#e0e5eb;--formBorderFocusColor:var(--paletteColor1);--formBorderSize:1px;--radioCheckboxInitialColor:#d5d8de;--radioCheckboxAccentColor:var(--paletteColor1);--paletteColor1:#3eaf7c;--paletteColor2:#33a370;--paletteColor3:rgba(44, 62, 80, 0.9);--paletteColor4:rgba(44, 62, 80, 1);--paletteColor5:#ffffff;--color:var(--paletteColor3);--linkInitialColor:var(--paletteColor1);--linkHoverColor:var(--paletteColor2);--selectionTextColor:#ffffff;--selectionBackgroundColor:var(--paletteColor1);--headingColor:var(--paletteColor4);--contentSpacing:1.5em;--buttonMinHeight:45px;--buttonBorderRadius:3px;--buttonTextInitialColor:#ffffff;--buttonTextHoverColor:#ffffff;--buttonInitialColor:var(--paletteColor1);--buttonHoverColor:var(--paletteColor2);--maxSiteWidth:1290px;--narrowContainer:750px;--wideOffset:130px;}h1 {--fontWeight:700;--fontSize:40px;--lineHeight:1.5;}h2 {--fontWeight:700;--fontSize:35px;--lineHeight:1.5;}h3 {--fontWeight:700;--fontSize:30px;--lineHeight:1.5;}h4 {--fontWeight:700;--fontSize:25px;--lineHeight:1.5;}h5 {--fontWeight:700;--fontSize:20px;--lineHeight:1.5;}h6 {--fontWeight:700;--fontSize:16px;--lineHeight:1.5;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontFamily:Georgia;--fontWeight:600;--fontSize:25px;}code, kbd, samp, pre {--fontFamily:monospace;--fontWeight:400;--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}.entry-summary > .product_title {--fontSize:30px;}body {--backgroundImage:none;--backgroundColor:var(--paletteColor5);}.ct-related-posts-container {--backgroundImage:none;--backgroundColor:#eff1f5;--padding:70px;--narrowContainer:750px;}.footer-widgets-area {--backgroundImage:none;--backgroundColor:#f4f5f8;}.entry-header .page-title {--fontSize:32px;--lineHeight:1.3;}.entry-header .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;--lineHeight:1.5;}.entry-header .page-description {--fontWeight:500;}.entry-header .ct-breadcrumbs {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;}.hero-section[data-type="type-2"] {--alignment:center;--vertical-alignment:center;--minHeight:50px;--pageTitleOverlay:rgba(41, 51, 60, 0.2);--backgroundImage:none;--backgroundColor:#EDEFF2;}.hero-section .page-title, .hero-section .ct-author-name {--itemSpacing:20px;}.hero-section .page-description {--itemSpacing:20px;}.hero-section .entry-meta {--itemSpacing:33px;}.ct-comments-container {--narrowContainer:750px;--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}.ct-pagination {--spacing:80px;}.ct-pagination[data-divider] {--border:none;}.ct-pagination[data-type="simple"] {--colorActive:#ffffff;}.entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--fontWeight:600;--textTransform:uppercase;--fontSize:12px;}.entry-button[data-type="outline"] {--colorHover:#ffffff;}[data-cards="boxed"] .entry-card {--cardBackground:#ffffff;--border:none;--cardSpacing:35px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}[data-cards="simple"] .entry-card {--border:1px dashed rgba(224, 229, 235, 0.8);}.entries {--cardsGap:30px;}form textarea {--formInputHeight:170px;}.selectr-container {--colorActive:#ffffff;--selectDropdownItemHoverColor:rgba(232, 235, 240, 0.4);--selectDropdownItemActiveColor:var(--paletteColor1);--selectDropdownBackground:#ffffff;}.content-area {--contentAreaSpacing:80px;}[data-sidebar] {--sidebarWidth:17%;--sidebarWidthNoUnit:17;--sidebarGap:7%;--sidebarOffset:41px;}.ct-sidebar {--linkInitialColor:var(--color);--sidebarWidgetsSpacing:27px;}[data-sidebar] > aside {--sidebarBackgroundColor:var(--paletteColor5);--sidebarInnerSpacing:35px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-back-to-top {--size:12px;--bottom:25px;--color:#ffffff;--colorHover:#ffffff;--backgroundColor:var(--paletteColor3);--backgroundColorHover:var(--paletteColor4);}.ct-passepartout {--passepartoutSize:10px;--passepartoutColor:var(--paletteColor1);}.ct-share-box[data-location="top"] {--margin:70px;}.ct-share-box[data-location="bottom"] {--margin:70px;}.ct-share-box[data-type="type-1"] {--linkInitialColor:var(--color);--borderColor:#e0e5eb;}.ct-share-box[data-type="type-2"] {--color:#ffffff;--backgroundColor:var(--paletteColor1);--backgroundColorHover:var(--paletteColor2);}.author-box {--spacing:11px;}.author-box[data-type="type-1"] {--backgroundColor:#ffffff;--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.author-box[data-type="type-2"] {--borderColor:var(--paletteColor4);}.post-navigation {--margin:80px;--linkInitialColor:var(--color);}.related-entry-title {--linkInitialColor:var(--color);}.ct-related-posts .ct-image-container {--borderRadius:5px;}</style>
+<style id="ct-main-styles-tablet-inline-css" type="text/css" media="(max-width: 999.98px) and (min-width: 690px)">header [data-row="bottom"] {--height:80px;}[data-behavior*="static"] [data-row="bottom"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="bottom"][data-border] {--borderTop:none;--borderBottom:none;}[data-id="button"] .ct-button-ghost {--buttonTextInitialColor:var(--buttonInitialColor);--buttonTextHoverColor:#ffffff;}.ct-header-cart i {--iconSize:15px;}.ct-header-cart > a {--linkInitialColor:var(--color);}.ct-header-cart {--cartBadgeBackground:var(--paletteColor1);--cartBadgeText:#ffffff;}.custom-logo-link {--maxHeight:50px;}.site-title {--fontSize:25px;--lineHeight:1.5;--linkInitialColor:var(--paletteColor4);}.site-description {--fontSize:13px;}.header-menu-1> ul > li > a {--fontSize:12px;--lineHeight:1.3;}.header-menu-1 .sub-menu {--fontSize:12px;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}.header-menu-2> ul > li > a {--fontSize:12px;--lineHeight:1.3;}.header-menu-2 .sub-menu {--fontSize:12px;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}header [data-row="middle"] {--height:70px;}[data-behavior*="static"] [data-row="middle"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="middle"][data-border] {--borderTop:none;--borderBottom:none;}.mobile-menu {--fontSize:30px;}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;--linkInitialColor:var(--color);}[data-id="socials"] {--iconSize:15px;--spacing:15px;}[data-id="socials"] [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}[data-id="socials"] .ct-label {--visibility:none;}[data-id="text"] {--maxWidth:100%;--fontSize:15px;--lineHeight:1.3;}header [data-row="top"] {--height:50px;}[data-behavior*="static"] [data-row="top"] {--backgroundImage:none;--backgroundColor:#f9f9f9;}header [data-row="top"][data-border] {--borderTop:none;--borderBottom:none;}[data-behavior] {--backgroundImage:none;--backgroundColor:#ffffff;}.site-footer [data-row="bottom"] > div {--itemsGap:60px;--containerSpacing:25px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;}.ct-footer-copyright {--fontSize:15px;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:25px;}[data-column="menu"] {--alignment:flex-start;--vertical-alignment:flex-start;}.footer-menu ul {--fontSize:12px;--lineHeight:1.3;}.site-footer [data-row="middle"] > div {--itemsGap:60px;--containerSpacing:50px;--gridTemplateColummns:initial;}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;}.ct-footer-socials {--iconSize:15px;--spacing:15px;}[data-column="socials"] {--horizontal-alignment:center;--vertical-alignment:center;}.ct-footer-socials [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--itemsGap:60px;--containerSpacing:30px;--gridTemplateColummns:initial;}.site-footer [data-row="top"] .widget-title {--fontSize:16px;}:root {--fontSize:17px;--lineHeight:1.65;--letterSpacing:0em;--buttonFontSize:15px;--buttonMinHeight:45px;--buttonBorderRadius:3px;}h1 {--fontSize:40px;--lineHeight:1.5;}h2 {--fontSize:35px;--lineHeight:1.5;}h3 {--fontSize:30px;--lineHeight:1.5;}h4 {--fontSize:25px;--lineHeight:1.5;}h5 {--fontSize:20px;--lineHeight:1.5;}h6 {--fontSize:16px;--lineHeight:1.5;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontSize:25px;}code, kbd, samp, pre {--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}.entry-summary > .product_title {--fontSize:30px;}.entry-header .page-title {--fontSize:30px;--lineHeight:1.3;}.entry-header .entry-meta {--fontSize:12px;--lineHeight:1.5;}.entry-header .ct-breadcrumbs {--fontSize:12px;}.hero-section[data-type="type-2"] {--alignment:center;--vertical-alignment:center;--minHeight:50px;}.hero-section .page-title, .hero-section .ct-author-name {--itemSpacing:20px;}.hero-section .page-description {--itemSpacing:20px;}.hero-section .entry-meta {--itemSpacing:33px;}.ct-pagination {--spacing:60px;}.entry-card .entry-title {--fontSize:20px;--lineHeight:1.3;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--fontSize:12px;}.entries {--cardsGap:30px;}[data-cards="boxed"] .entry-card {--cardSpacing:35px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}.content-area {--contentAreaSpacing:60px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-sidebar {--sidebarWidgetsSpacing:40px;}[data-sidebar] > aside {--sidebarInnerSpacing:35px;}.ct-back-to-top {--size:12px;--bottom:25px;}.ct-passepartout {--passepartoutSize:10px;}.ct-share-box[data-location="top"] {--margin:50px;}.ct-share-box[data-location="bottom"] {--margin:50px;}.author-box {--spacing:11px;}.author-box[data-type="type-1"] {--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.post-navigation {--margin:60px;}.ct-related-posts-container {--padding:50px;}.ct-related-posts .ct-image-container {--borderRadius:5px;}</style>
+<style id="ct-main-styles-mobile-inline-css" type="text/css" media="(max-width: 689.98px)">header [data-row="bottom"] {--height:80px;}[data-behavior*="static"] [data-row="bottom"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="bottom"][data-border] {--borderTop:none;--borderBottom:none;}[data-id="button"] .ct-button-ghost {--buttonTextInitialColor:var(--buttonInitialColor);--buttonTextHoverColor:#ffffff;}.ct-header-cart i {--iconSize:15px;}.ct-header-cart > a {--linkInitialColor:var(--color);}.ct-header-cart {--cartBadgeBackground:var(--paletteColor1);--cartBadgeText:#ffffff;}.custom-logo-link {--maxHeight:50px;}.site-title {--fontSize:25px;--lineHeight:1.5;--linkInitialColor:var(--paletteColor4);}.site-description {--fontSize:12px;}.header-menu-1> ul > li > a {--fontSize:12px;--lineHeight:1.3;}.header-menu-1 .sub-menu {--fontSize:12px;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}.header-menu-2> ul > li > a {--fontSize:12px;--lineHeight:1.3;}.header-menu-2 .sub-menu {--fontSize:12px;--boxShadow:0px 10px 20px rgba(41, 51, 61, 0.1);--borderRadius:2px;}header [data-row="middle"] {--height:70px;}[data-behavior*="static"] [data-row="middle"] {--backgroundImage:none;--backgroundColor:rgba(255, 255, 255, 0);}header [data-row="middle"][data-border] {--borderTop:none;--borderBottom:none;}.mobile-menu {--fontSize:23px;}[data-behaviour*="side"] {--boxShadow:0px 0px 70px rgba(0, 0, 0, 0.35);}.ct-header-search {--iconSize:15px;--linkInitialColor:var(--color);}[data-id="socials"] {--iconSize:15px;--spacing:15px;}[data-id="socials"] [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}[data-id="socials"] .ct-label {--visibility:none;}[data-id="text"] {--maxWidth:100%;--fontSize:15px;--lineHeight:1.3;}header [data-row="top"] {--height:50px;}[data-behavior*="static"] [data-row="top"] {--backgroundImage:none;--backgroundColor:#f9f9f9;}header [data-row="top"][data-border] {--borderTop:none;--borderBottom:none;}[data-behavior] {--backgroundImage:none;--backgroundColor:#ffffff;}.site-footer [data-row="bottom"] > div {--itemsGap:60px;--containerSpacing:15px;--gridTemplateColummns:initial;}.site-footer [data-row="bottom"] .widget-title {--fontSize:16px;}.ct-footer-copyright {--fontSize:15px;--lineHeight:1.3;}[data-column="copyright"] {--horizontal-alignment:center;--vertical-alignment:flex-start;}.footer-menu {--menuItemsSpacing:20px;}[data-column="menu"] {--alignment:center;--vertical-alignment:flex-start;}.footer-menu ul {--fontSize:12px;--lineHeight:1.3;}.site-footer [data-row="middle"] > div {--itemsGap:60px;--containerSpacing:40px;--gridTemplateColummns:initial;}.site-footer [data-row="middle"] .widget-title {--fontSize:16px;}.ct-footer-socials {--iconSize:15px;--spacing:15px;}[data-column="socials"] {--horizontal-alignment:center;--vertical-alignment:center;}.ct-footer-socials [data-color="custom"] {--linkInitialColor:var(--color);--backgroundColor:rgba(218, 222, 228, 0.3);--backgroundColorHover:var(--paletteColor1);}.site-footer [data-row="top"] > div {--itemsGap:60px;--containerSpacing:30px;--gridTemplateColummns:initial;}.site-footer [data-row="top"] .widget-title {--fontSize:16px;}:root {--fontSize:17px;--lineHeight:1.65;--letterSpacing:0em;--buttonFontSize:15px;--buttonMinHeight:45px;--buttonBorderRadius:3px;}h1 {--fontSize:40px;--lineHeight:1.5;}h2 {--fontSize:35px;--lineHeight:1.5;}h3 {--fontSize:30px;--lineHeight:1.5;}h4 {--fontSize:25px;--lineHeight:1.5;}h5 {--fontSize:20px;--lineHeight:1.5;}h6 {--fontSize:16px;--lineHeight:1.5;}.wp-block-quote.is-style-large p, .wp-block-pullquote p, .ct-quote-widget blockquote {--fontSize:25px;}code, kbd, samp, pre {--fontSize:16px;}.ct-sidebar .widget-title {--fontSize:18px;}.entry-summary > .product_title {--fontSize:30px;}.entry-header .page-title {--fontSize:25px;--lineHeight:1.3;}.entry-header .entry-meta {--fontSize:12px;--lineHeight:1.5;}.entry-header .ct-breadcrumbs {--fontSize:12px;}.hero-section[data-type="type-2"] {--alignment:center;--vertical-alignment:center;--minHeight:50px;}.hero-section .page-title, .hero-section .ct-author-name {--itemSpacing:20px;}.hero-section .page-description {--itemSpacing:20px;}.hero-section .entry-meta {--itemSpacing:33px;}.ct-pagination {--spacing:50px;}.entry-card .entry-title {--fontSize:18px;--lineHeight:1.3;}.entry-excerpt {--cardExcerptSize:16px;}.entry-card .entry-meta {--fontSize:12px;}.entries {--cardsGap:30px;}[data-cards="boxed"] .entry-card {--cardSpacing:25px;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}.content-area {--contentAreaSpacing:50px;}aside[data-type="type-2"] {--border:none;--boxShadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}aside[data-type="type-3"] {--border:1px solid rgba(224, 229, 235, 0.8);}.ct-sidebar {--sidebarWidgetsSpacing:30px;}[data-sidebar] > aside {--sidebarInnerSpacing:35px;}.ct-back-to-top {--size:12px;--bottom:25px;}.ct-passepartout {--passepartoutSize:0px;}.ct-share-box[data-location="top"] {--margin:30px;}.ct-share-box[data-location="bottom"] {--margin:30px;}.author-box {--spacing:11px;}.author-box[data-type="type-1"] {--boxShadow:0px 50px 90px rgba(210, 213, 218, 0.4);}.post-navigation {--margin:40px;}.ct-related-posts-container {--padding:30px;}.ct-related-posts .ct-image-container {--borderRadius:5px;}</style>
+<link rel="stylesheet" id="all-css-4ebe202fa8d405350852f6fcc61284a4" href="./Sentiment Analysis Projects with Python_files/saved_resource(3)" type="text/css" media="all">
+<style id="wp-block-library-inline-css">
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel="stylesheet" id="fontawesomepublic-css" href="./Sentiment Analysis Projects with Python_files/all.min.css" media="all">
+<link rel="stylesheet" id="fontawesomepublicv4-css" href="./Sentiment Analysis Projects with Python_files/v4-shims.min.css" media="all">
+<link rel="stylesheet" id="sab-font-css" href="./Sentiment Analysis Projects with Python_files/css" media="all">
+<style id="jetpack-global-styles-frontend-style-inline-css">
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<script id="qubely_local_script-js-extra">
+var qubely_urls = {"plugin":"https:\/\/thecleverprogrammer.com\/wp-content\/plugins\/qubely\/","ajax":"https:\/\/thecleverprogrammer.com\/wp-admin\/admin-ajax.php","nonce":"882141c72c","actual_url":"thecleverprogrammer.com"};
+</script>
+<script id="qubely_container_width-js-extra">
+var qubely_container_width = {"sm":"540","md":"720","lg":"960","xl":"1140"};
+</script>
+<script src="./Sentiment Analysis Projects with Python_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script type="text/javascript" src="./Sentiment Analysis Projects with Python_files/saved_resource(4)"></script>
+<script src="./Sentiment Analysis Projects with Python_files/js" id="google_gtagjs-js" async=""></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["thecleverprogrammer.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "UA-161424785-3", {"anonymize_ip":true});
+</script>
+<link rel="https://api.w.org/" href="https://thecleverprogrammer.com/wp-json/"><link rel="alternate" type="application/json" href="https://thecleverprogrammer.com/wp-json/wp/v2/posts/9994"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thecleverprogrammer.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://thecleverprogrammer.com/wp-includes/wlwmanifest.xml"> 
+
+<link rel="shortlink" href="https://wp.me/pbUb2D-2Bc">
+<link rel="alternate" type="application/json+oembed" href="https://thecleverprogrammer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://thecleverprogrammer.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.33.0"><script data-ad-client="ca-pub-4476837837997013" async="" src="./Sentiment Analysis Projects with Python_files/f.txt"></script>                <!-- auto ad code generated with Simple Google Adsense plugin v1.0.5 -->
+                <script async="" src="./Sentiment Analysis Projects with Python_files/f.txt"></script>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                     google_ad_client: "ca-pub-4476837837997013",
+                     enable_page_level_ads: true
+                });
+                </script>      
+                <!-- / Simple Google Adsense plugin --><style type="text/css">img#wpstats{display:none}</style>
+					<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<script async="" src="./Sentiment Analysis Projects with Python_files/f.txt"></script><script>(adsbygoogle = window.adsbygoogle || []).push({"google_ad_client":"ca-pub-4476837837997013","enable_page_level_ads":true,"tag_partner":"site_kit"});</script><style type="text/css">.saboxplugin-wrap{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;border:1px solid #eee;width:100%;clear:both;display:block;overflow:hidden;word-wrap:break-word;position:relative}.saboxplugin-wrap .saboxplugin-gravatar{float:left;padding:20px}.saboxplugin-wrap .saboxplugin-gravatar img{max-width:100px;height:auto;border-radius:0;}.saboxplugin-wrap .saboxplugin-authorname{font-size:18px;line-height:1;margin:20px 0 0 20px;display:block}.saboxplugin-wrap .saboxplugin-authorname a{text-decoration:none}.saboxplugin-wrap .saboxplugin-authorname a:focus{outline:0}.saboxplugin-wrap .saboxplugin-desc{display:block;margin:5px 20px}.saboxplugin-wrap .saboxplugin-desc a{text-decoration:underline}.saboxplugin-wrap .saboxplugin-desc p{margin:5px 0 12px}.saboxplugin-wrap .saboxplugin-web{margin:0 20px 15px;text-align:left}.saboxplugin-wrap .sab-web-position{text-align:right}.saboxplugin-wrap .saboxplugin-web a{color:#ccc;text-decoration:none}.saboxplugin-wrap .saboxplugin-socials{position:relative;display:block;background:#fcfcfc;padding:5px;border-top:1px solid #eee}.saboxplugin-wrap .saboxplugin-socials a svg{width:20px;height:20px}.saboxplugin-wrap .saboxplugin-socials a svg .st2{fill:#fff; transform-origin:center center;}.saboxplugin-wrap .saboxplugin-socials a svg .st1{fill:rgba(0,0,0,.3)}.saboxplugin-wrap .saboxplugin-socials a:hover{opacity:.8;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;box-shadow:none!important;-webkit-box-shadow:none!important}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color{box-shadow:none;padding:0;border:0;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;transition:opacity .4s;display:inline-block;color:#fff;font-size:0;text-decoration:inherit;margin:5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;overflow:hidden}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey{text-decoration:inherit;box-shadow:none;position:relative;display:-moz-inline-stack;display:inline-block;vertical-align:middle;zoom:1;margin:10px 5px;color:#444;fill:#444}.clearfix:after,.clearfix:before{content:' ';display:table;line-height:0;clear:both}.ie7 .clearfix{zoom:1}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitch{border-color:#38245c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-addthis{border-color:#e91c00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-behance{border-color:#003eb0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-delicious{border-color:#06c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-deviantart{border-color:#036824}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-digg{border-color:#00327c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-dribbble{border-color:#ba1655}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-facebook{border-color:#1e2e4f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-flickr{border-color:#003576}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-github{border-color:#264874}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-google{border-color:#0b51c5}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-googleplus{border-color:#96271a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-html5{border-color:#902e13}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-instagram{border-color:#1630aa}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-linkedin{border-color:#00344f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-pinterest{border-color:#5b040e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-reddit{border-color:#992900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-rss{border-color:#a43b0a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-sharethis{border-color:#5d8420}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-skype{border-color:#00658a}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-soundcloud{border-color:#995200}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-spotify{border-color:#0f612c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stackoverflow{border-color:#a95009}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-steam{border-color:#006388}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-user_email{border-color:#b84e05}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-stumbleUpon{border-color:#9b280e}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-tumblr{border-color:#10151b}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-twitter{border-color:#0967a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vimeo{border-color:#0d7091}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-windows{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-whatsapp{border-color:#003f71}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-wordpress{border-color:#0f3647}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-yahoo{border-color:#14002d}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-youtube{border-color:#900}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-xing{border-color:#000202}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mixcloud{border-color:#2475a0}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-vk{border-color:#243549}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-medium{border-color:#00452c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-quora{border-color:#420e00}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-meetup{border-color:#9b181c}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-goodreads{border-color:#000}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-snapchat{border-color:#999700}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-500px{border-color:#00557f}.saboxplugin-socials.sabox-colored .saboxplugin-icon-color .sab-mastodont{border-color:#185886}.sabox-plus-item{margin-bottom:20px}@media screen and (max-width:480px){.saboxplugin-wrap{text-align:center}.saboxplugin-wrap .saboxplugin-gravatar{float:none;padding:20px 0;text-align:center;margin:0 auto;display:block}.saboxplugin-wrap .saboxplugin-gravatar img{float:none;display:inline-block;display:-moz-inline-stack;vertical-align:middle;zoom:1}.saboxplugin-wrap .saboxplugin-desc{margin:0 10px 20px;text-align:center}.saboxplugin-wrap .saboxplugin-authorname{text-align:center;margin:10px 0 20px}}body .saboxplugin-authorname a,body .saboxplugin-authorname a:hover{box-shadow:none;-webkit-box-shadow:none}a.sab-profile-edit{font-size:16px!important;line-height:1!important}.sab-edit-settings a,a.sab-profile-edit{color:#0073aa!important;box-shadow:none!important;-webkit-box-shadow:none!important}.sab-edit-settings{margin-right:15px;position:absolute;right:0;z-index:2;bottom:10px;line-height:20px}.sab-edit-settings i{margin-left:5px}.saboxplugin-socials{line-height:1!important}.rtl .saboxplugin-wrap .saboxplugin-gravatar{float:right}.rtl .saboxplugin-wrap .saboxplugin-authorname{display:flex;align-items:center}.rtl .saboxplugin-wrap .saboxplugin-authorname .sab-profile-edit{margin-right:10px}.rtl .sab-edit-settings{right:auto;left:0}img.sab-custom-avatar{max-width:75px;}.saboxplugin-wrap {border-color:#000000;}.saboxplugin-wrap .saboxplugin-socials {border-color:#000000;}.saboxplugin-wrap, .saboxplugin-wrap .saboxplugin-socials{ border-width: 0px; }.saboxplugin-wrap .saboxplugin-gravatar img {-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color {-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color:hover,.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey:hover {-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-o-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-color svg {border-width: 1px;border-style:solid;border-radius:50%}.saboxplugin-wrap .saboxplugin-socials .saboxplugin-icon-grey {color:#000000; fill:#000000;}.saboxplugin-wrap .saboxplugin-authorname a,.saboxplugin-wrap .saboxplugin-authorname span {color:#000000;}.saboxplugin-wrap .saboxplugin-authorname {font-family:"Roboto";}.saboxplugin-wrap .saboxplugin-desc {font-family:Roboto;}.saboxplugin-wrap {margin-top:0px; margin-bottom:0px; padding: 0px 0px }.saboxplugin-wrap .saboxplugin-authorname {font-size:25px; line-height:32px;}.saboxplugin-wrap .saboxplugin-desc p, .saboxplugin-wrap .saboxplugin-desc {font-size:10px !important; line-height:17px !important;}.saboxplugin-wrap .saboxplugin-web {font-size:14px;}.saboxplugin-wrap .saboxplugin-socials a svg {width:44px;height:44px;}</style><link rel="icon" href="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/04/cropped-thecleverprogrammer.png?fit=32%2C32&amp;ssl=1" sizes="32x32">
+<link rel="icon" href="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/04/cropped-thecleverprogrammer.png?fit=192%2C192&amp;ssl=1" sizes="192x192">
+<link rel="apple-touch-icon" href="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/04/cropped-thecleverprogrammer.png?fit=180%2C180&amp;ssl=1">
+<meta name="msapplication-TileImage" content="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/04/cropped-thecleverprogrammer.png?fit=270%2C270&amp;ssl=1">
+<style type="text/css"></style><!-- Jetpack Google Analytics -->
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-161424785-3']);
+_gaq.push(['_trackPageview']);
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+			<!-- End Jetpack Google Analytics -->
+	<script charset="utf-8" src="./Sentiment Analysis Projects with Python_files/0.a2848c53a092c4d8c038.js.download"></script><script charset="utf-8" src="./Sentiment Analysis Projects with Python_files/1.2ec839803595a44e1073.js.download"></script><script charset="utf-8" src="./Sentiment Analysis Projects with Python_files/2.3546d1cf97fbbe3572ac.js.download"></script><script charset="utf-8" src="./Sentiment Analysis Projects with Python_files/3.1135d2ce973285180a3a.js.download"></script></head>
+
+<body class="post-template-default single single-post postid-9994 single-format-standard qubely qubely-frontend" data-link="type-1" data-forms="classic" data-prefix="single_blog_post" itemscope="itemscope" itemtype="https://schema.org/Blog" data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
+
+<a class="skip-link show-on-focus" href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#primary">
+	Skip to content</a>
+
+
+<div id="main-container">
+	<header id="header" data-behavior="static" itemscope="" itemtype="https://schema.org/WPHeader"><div data-device="desktop"><div data-row="middle" data-columns="2"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+	<span class="site-title" itemprop="name">
+					<a href="https://thecleverprogrammer.com/" class="custom-logo-link" rel="home"></a>			</span>
+
+	</div>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<nav id="header-menu-1" class="header-menu-1" data-id="menu" data-type="type-1" data-dropdown-animation="type-1" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+
+	<ul id="menu-primary" class="menu">
+
+
+<li class="menu-item-has-children more-items-container" data-submenu="right"><a href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#">
+      More
+      <span class="child-indicator">
+        <svg width="8" height="8" viewBox="0 0 15 15">
+            <path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path>
+        </svg>
+      </span>
+    </a>
+    <ul class="sub-menu"><li id="menu-item-8468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8468"><a href="https://thecleverprogrammer.com/">Thecleverprogrammer</a></li><li id="menu-item-5638" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-5638"><a href="https://thecleverprogrammer.com/machine-learning/">All Articles</a></li><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://thecleverprogrammer.com/about/">About</a></li></ul></li></ul>
+</nav>
+
+
+<div class="ct-header-search " data-id="search">
+
+	<a href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#search-modal" aria-label="Search">
+		<svg viewBox="0 0 10 10">
+			<path d="M9.7,9.7c-0.4,0.4-1,0.4-1.3,0L6.7,8.1C6.1,8.5,5.3,8.8,4.4,8.8C2,8.8,0,6.8,0,4.4S2,0,4.4,0s4.4,2,4.4,4.4
+		c0,0.9-0.3,1.7-0.7,2.4l1.7,1.7C10.1,8.8,10.1,9.4,9.7,9.7z M4.4,1.3c-1.7,0-3.1,1.4-3.1,3.1s1.4,3.1,3.1,3.1c1.7,0,3.1-1.4,3.1-3.1
+		S6.1,1.3,4.4,1.3z"></path>
+		</svg>
+	</a>
+</div>
+</div></div></div></div></div><div data-device="mobile"><div data-row="middle" data-columns="2"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+	<span class="site-title" itemprop="name">
+					<a href="https://thecleverprogrammer.com/" class="custom-logo-link" rel="home"></a>			</span>
+
+	</div>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<a href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#offcanvas" class="ct-header-trigger" data-design="simple" aria-label="Menu" data-id="trigger">
+
+	<span class="ct-trigger" data-type="type-1">
+		<span></span>
+	</span>
+
+	<span class="ct-label" hidden="">
+		Menu	</span>
+</a>
+
+</div></div></div></div></div></header>
+	<main id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+		
+<section class="hero-section" data-type="type-2">
+	
+	<div class="ct-container-narrow">
+		<header class="entry-header">
+			<h1 class="page-title" itemprop="headline">Sentiment Analysis Projects with Python</h1>
+	<div class="page-description ">
+		6 Sentiment Analysis Projects with Python.	</div>
+
+	<ul class="entry-meta" data-type="icons:slash"><li class="meta-author" itemprop="name"><a href="https://thecleverprogrammer.com/author/amankharwal/" class="ct-image-container-static"><img src="./Sentiment Analysis Projects with Python_files/8be3cd61b437e9d5f7ad2e88f2af7c73.png" data-object-fit="~" width="25" height="25" style="height:25px" alt="Default image"></a> <svg width="13" height="13" viewBox="0 0 15 15"> <path d="M13.6,1.4c-1.9-1.9-4.9-1.9-6.8,0L2.2,6C2.1,6.1,2,6.3,2,6.5V12l-1.8,1.8c-0.3,0.3-0.3,0.7,0,1C0.3,14.9,0.5,15,0.7,15s0.3-0.1,0.5-0.2L3,13h5.5c0.2,0,0.4-0.1,0.5-0.2l2.7-2.7c0,0,0,0,0,0l1.9-1.9C15.5,6.3,15.5,3.3,13.6,1.4z M8.2,11.6H4.4l1.4-1.4h3.9L8.2,11.6z M12.6,7.2L11,8.9H7.1l3.6-3.6c0.3-0.3,0.3-0.7,0-1C10.4,4,10,4,9.7,4.3L5,9.1c0,0,0,0,0,0l-1.6,1.6V6.8l4.4-4.4c1.3-1.3,3.5-1.3,4.8,0C14,3.7,14,5.9,12.6,7.2C12.6,7.2,12.6,7.2,12.6,7.2z"></path> </svg> <a class="ct-meta-element-author" href="https://thecleverprogrammer.com/author/amankharwal/" title="Posts by Aman Kharwal" rel="author" itemprop="author">Aman Kharwal</a></li><li class="meta-date" itemprop="datePublished"><svg width="13" height="13" viewBox="0 0 15 15"> <path d="M7.5,0C3.4,0,0,3.4,0,7.5S3.4,15,7.5,15S15,11.6,15,7.5S11.6,0,7.5,0z M7.5,13.6c-3.4,0-6.1-2.8-6.1-6.1c0-3.4,2.8-6.1,6.1-6.1c3.4,0,6.1,2.8,6.1,6.1C13.6,10.9,10.9,13.6,7.5,13.6z M10.8,9.2c-0.1,0.2-0.4,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1L7.2,8.1C7,8,6.8,7.8,6.8,7.5V4c0-0.4,0.3-0.7,0.7-0.7S8.2,3.6,8.2,4v3.1l2.4,1.2C10.9,8.4,11,8.8,10.8,9.2z"></path> </svg><time class="ct-meta-element-date" datetime="2020-11-25T09:28:24+05:30">November 25, 2020</time></li><li class="meta-categories" data-type="simple"><svg width="13" height="13" viewBox="0 0 15 15"><path d="M14.4,1.2H0.6C0.3,1.2,0,1.5,0,1.9V5c0,0.3,0.3,0.6,0.6,0.6h0.6v7.5c0,0.3,0.3,0.6,0.6,0.6h11.2c0.3,0,0.6-0.3,0.6-0.6V5.6h0.6C14.7,5.6,15,5.3,15,5V1.9C15,1.5,14.7,1.2,14.4,1.2z M12.5,12.5h-10V5.6h10V12.5z M13.8,4.4H1.2V2.5h12.5V4.4z M5.6,7.5c0-0.3,0.3-0.6,0.6-0.6h2.5c0.3,0,0.6,0.3,0.6,0.6S9.1,8.1,8.8,8.1H6.2C5.9,8.1,5.6,7.8,5.6,7.5z"></path></svg><a href="https://thecleverprogrammer.com/category/by-aman-kharwal/" rel="tag">Machine Learning</a></li></ul>		</header>
+	</div>
+</section>
+
+
+
+	<div id="primary" class="content-area" data-v-spacing="top:bottom">
+		<div class="ct-container" data-sidebar="right">
+
+			<section>
+				
+	<article id="post-9994" class="post-9994 post type-post status-publish format-standard has-post-thumbnail hentry category-by-aman-kharwal tag-machine-learning" data-structure="default:wide">
+
+		
+		
+		<div class="entry-content">
+			
+<p>In this article, I will introduce you to 6 sentiment analysis projects with Python for Machine Learning. Sentiment Analysis brings together various areas of research such as natural language processing, data mining, and text mining, and is quickly becoming of major importance to organizations striving to integrate methods of computational intelligence in their operations and attempt to further enlighten and improve their products and services.</p><div class="code-block code-block-2" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async="" src="./Sentiment Analysis Projects with Python_files/f.txt"></script>
+<!-- new articles -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4476837837997013" data-ad-slot="4629281049" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+
+
+
+<p>Before starting with the six sentiment analysis projects below you can learn about the fundamentals on how to train a Machine Learning model for Sentiment Analysis from&nbsp;<a target="_blank" href="https://thecleverprogrammer.com/2020/08/13/sentiment-analysis/" rel="noreferrer noopener"><strong>here</strong></a>.</p>
+
+
+
+<h2>6 Sentiment Analysis Projects with Python</h2>
+
+
+
+<ol><li><a target="_blank" href="https://thecleverprogrammer.com/2020/10/01/predict-us-elections-with-python/" rel="noreferrer noopener"><strong>Predict US Elections</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/08/19/hate-speech-detection-model/" rel="noreferrer noopener"><strong>Hate Speech Detection Model</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/06/13/twitter-sentiment-analysis/" rel="noreferrer noopener"><strong>Twitter Sentiment Analysis</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/05/25/movie-reviews-sentiment-analysis-binary-classification-with-machine-learning/" rel="noreferrer noopener"><strong>Movie Reviews Sentiment Analysis</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/05/15/amazon-product-reviews-sentiment-analysis-with-machine-learning/" rel="noreferrer noopener"><strong>Amazon Product Reviews Sentiment Analysis</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/07/18/fake-news-detection-model/" rel="noreferrer noopener"><strong>Fake News Detection Model</strong></a></li><li><a target="_blank" href="https://thecleverprogrammer.com/2020/11/15/machine-learning-projects/" rel="noreferrer noopener"><strong>100+ Machine Learning Projects Solved and Explained</strong></a></li></ol>
+
+
+
+<p>All the above projects are solved and explained by using the&nbsp;<a target="_blank" href="https://www.python.org/" rel="noreferrer noopener">Python</a>&nbsp;programming language. I hope you liked this article on six sentiment classification projects with Python for Machine Learning. Feel free to ask your valuable questions in the comments section below.</p>
+<!-- AI CONTENT END 1 -->
+		</div>
+
+					<div class="entry-tags"><a href="https://thecleverprogrammer.com/tag/machine-learning/" rel="tag">Machine Learning</a></div>		
+					
+		<div class="ct-share-box ct-hidden-sm" data-location="bottom" data-type="type-1">
+			
+							
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F" target="_blank" rel="opener" data-network="facebook" aria-label="Facebook">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Facebook					</span>
+				</a>
+							
+				<a href="https://twitter.com/share?url=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F&amp;text=Sentiment%20Analysis%20Projects%20with%20Python" target="_blank" rel="opener" data-network="twitter" aria-label="Twitter">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M20,3.8c-0.7,0.3-1.5,0.5-2.4,0.6c0.8-0.5,1.5-1.3,1.8-2.3c-0.8,0.5-1.7,0.8-2.6,1c-0.7-0.8-1.8-1.3-3-1.3c-2.3,0-4.1,1.8-4.1,4.1c0,0.3,0,0.6,0.1,0.9C6.4,6.7,3.4,5.1,1.4,2.6C1,3.2,0.8,3.9,0.8,4.7c0,1.4,0.7,2.7,1.8,3.4C2,8.1,1.4,7.9,0.8,7.6c0,0,0,0,0,0.1c0,2,1.4,3.6,3.3,4c-0.3,0.1-0.7,0.1-1.1,0.1c-0.3,0-0.5,0-0.8-0.1c0.5,1.6,2,2.8,3.8,2.8c-1.4,1.1-3.2,1.8-5.1,1.8c-0.3,0-0.7,0-1-0.1c1.8,1.2,4,1.8,6.3,1.8c7.5,0,11.7-6.3,11.7-11.7c0-0.2,0-0.4,0-0.5C18.8,5.3,19.4,4.6,20,3.8z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Twitter					</span>
+				</a>
+							
+				<a href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#" target="_blank" rel="opener" data-network="pinterest" aria-label="Pinterest">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M10,0C4.5,0,0,4.5,0,10c0,4.1,2.5,7.6,6,9.2c0-0.7,0-1.5,0.2-2.3c0.2-0.8,1.3-5.4,1.3-5.4s-0.3-0.6-0.3-1.6c0-1.5,0.9-2.6,1.9-2.6c0.9,0,1.3,0.7,1.3,1.5c0,0.9-0.6,2.3-0.9,3.5c-0.3,1.1,0.5,1.9,1.6,1.9c1.9,0,3.2-2.4,3.2-5.3c0-2.2-1.5-3.8-4.2-3.8c-3,0-4.9,2.3-4.9,4.8c0,0.9,0.3,1.5,0.7,2C6,12,6.1,12.1,6,12.4c0,0.2-0.2,0.6-0.2,0.8c-0.1,0.3-0.3,0.3-0.5,0.3c-1.4-0.6-2-2.1-2-3.8c0-2.8,2.4-6.2,7.1-6.2c3.8,0,6.3,2.8,6.3,5.7c0,3.9-2.2,6.9-5.4,6.9c-1.1,0-2.1-0.6-2.4-1.2c0,0-0.6,2.3-0.7,2.7c-0.2,0.8-0.6,1.5-1,2.1C8.1,19.9,9,20,10,20c5.5,0,10-4.5,10-10C20,4.5,15.5,0,10,0z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Pinterest					</span>
+				</a>
+							
+				<a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F&amp;title=Sentiment%20Analysis%20Projects%20with%20Python" target="_blank" rel="opener" data-network="linkedin" aria-label="LinkedIn">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						LinkedIn					</span>
+				</a>
+																															
+					</div>
+
+			
+		
+	<div class="author-box " data-type="type-2">
+		<a href="https://thecleverprogrammer.com/author/amankharwal/" class="ct-image-container"><img src="./Sentiment Analysis Projects with Python_files/8be3cd61b437e9d5f7ad2e88f2af7c73(1).png" data-object-fit="~" width="60" height="60" alt="Default image">
+						<svg width="18px" height="13px" viewBox="0 0 20 15">
+							<polygon points="14.5,2 13.6,2.9 17.6,6.9 0,6.9 0,8.1 17.6,8.1 13.6,12.1 14.5,13 20,7.5 "></polygon>
+						</svg>
+					<span class="ct-ratio" style="padding-bottom: 100%"></span></a>
+		<section>
+			<h5 class="author-box-name">Aman Kharwal</h5>
+
+			<div class="author-box-bio">
+				<h2 class="mt1 t-18 t-black t-normal break-words">Coder with the <img draggable="false" role="img" class="emoji" alt="❤️" src="./Sentiment Analysis Projects with Python_files/2764.svg"> of a Writer || Data Scientist | Solopreneur | Founder</h2>			</div>
+
+			
+	<div class="author-box-social">
+
+					<a href="http://thecleverprogrammer.com/" target="_blank" rel="opener">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path d="M12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm8.3 7.2h-3.5c-.5-2.2-1.7-4.3-1.7-4.3s3.4 1 5.2 4.3zm-8.3-4.8s1.5 2.1 2.3 4.8h-4.6c.9-2.9 2.3-4.8 2.3-4.8zm-9.3 12s-.7-2.2 0-4.8h4.1c-.4 2.2 0 4.8 0 4.8h-4.1zm1 2.4h3.5c.7 2.7 1.7 4.3 1.7 4.3-3.7-1.3-5.2-4.3-5.2-4.3zm3.5-9.6h-3.5c1.9-3.3 5.2-4.3 5.2-4.3s-1.2 2.1-1.7 4.3zm4.8 14.4s-1.6-2.3-2.3-4.8h4.6c-.7 2.5-2.3 4.8-2.3 4.8zm2.8-7.2h-5.6s-.4-2.4 0-4.8h5.6c.4 2.2 0 4.8 0 4.8zm.3 6.7s1.2-2.2 1.7-4.3h3.5c-1.9 3.3-5.2 4.3-5.2 4.3zm2.1-6.7s.4-2.5 0-4.8h4.1c.7 2.6 0 4.8 0 4.8h-4.1z"></path>
+				</svg>
+
+									<span class="ct-tooltip-top">
+						Website					</span>
+							</a>
+		
+					<a href="http://amankk_9/" target="_blank" rel="opener">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,4,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6C22.5,6.4,23.3,5.5,24,4.6z"></path>
+				</svg>
+
+									<span class="ct-tooltip-top">
+						Twitter					</span>
+							</a>
+		
+					<a href="https://www.facebook.com/thecleverprogrammer" target="_blank" rel="opener">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path d="M18.3,8.7h-4.7V5.8c0-0.8,0.6-1.4,1.4-1.4H18V0h-3.6c-3.2,0-5.8,2.6-5.8,5.8v2.9H5.7V13h2.9v11h5.1V13h3.6L18.3,8.7z"></path>
+				</svg>
+
+									<span class="ct-tooltip-top">
+						Facebook					</span>
+							</a>
+		
+					<a href="https://www.linkedin.com/in/aman-kharwal-566baa146/" target="_blank" rel="opener">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path d="M5.2,24H0.1V6.9h5.1V24z M24,24h-5.1v-9.1c0-2.4-0.8-3.6-2.5-3.6c-1.3,0-2.2,0.7-2.6,2c0,2.2,0,10.7,0,10.7H8.6c0,0,0.1-15.4,0-17.1h4l0.3,3.4h0.1c1.1-1.7,2.7-2.9,5-2.9c1.8,0,3.2,0.5,4.2,1.7c1.1,1.2,1.6,2.9,1.6,5.2V24z"></path>
+					<ellipse cx="2.6" cy="2.6" rx="2.6" ry="2.6"></ellipse>
+				</svg>
+
+									<span class="ct-tooltip-top">
+						Linked In					</span>
+							</a>
+		
+		
+					<a href="https://www.instagram.com/aman.kharwal/" target="_blank" rel="opener">
+				<svg width="20px" height="20px" viewBox="0 0 24 24">
+					<path d="M6.7,0C3,0,0,3,0,6.7v10.7C0,21,3,24,6.7,24h10.7c3.7,0,6.7-3,6.7-6.7V6.7C24,3,21,0,17.3,0H6.7z M20,2.7c0.7,0,1.3,0.6,1.3,1.3S20.7,5.3,20,5.3S18.7,4.7,18.7,4S19.3,2.7,20,2.7z M12,5.3c3.7,0,6.7,3,6.7,6.7s-3,6.7-6.7,6.7s-6.7-3-6.7-6.7S8.3,5.3,12,5.3z M12,8c-2.2,0-4,1.8-4,4s1.8,4,4,4s4-1.8,4-4S14.2,8,12,8z"></path>
+				</svg>
+
+									<span class="ct-tooltip-top">
+						Instagram					</span>
+							</a>
+			</div>
+
+			</section>
+	</div>
+
+	
+		<nav class="post-navigation  has-thumbnails">
+							<a href="https://thecleverprogrammer.com/2020/11/24/data-structures-and-algorithms-in-c/" class="nav-item-prev">
+											<figure class="ct-image-container"><img width="300" height="169" src="./Sentiment Analysis Projects with Python_files/Data-Structures-and-Algorithms-Complete-Course-using-C.png" class="attachment-medium size-medium jetpack-lazy-image jetpack-lazy-image--handled" alt="Data Structures and Algorithms in C++" loading="eager" data-attachment-id="9987" data-permalink="https://thecleverprogrammer.com/2020/11/24/data-structures-and-algorithms-in-c/data-structures-and-algorithms-complete-course-using-c/" data-orig-file="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?fit=1280%2C720&amp;ssl=1" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Data Structures and Algorithms Complete Course using C" data-image-description="" data-medium-file="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?fit=1024%2C576&amp;ssl=1" srcset="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?w=1280&amp;ssl=1 1280w, https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Data-Structures-and-Algorithms-Complete-Course-using-C.png?resize=1200%2C675&amp;ssl=1 1200w" data-object-fit="~" itemprop="image" data-lazy-loaded="1" sizes="(max-width: 300px) 100vw, 300px"><svg width="20px" height="15px" viewBox="0 0 20 15"><polygon points="0,7.5 5.5,13 6.4,12.1 2.4,8.1 20,8.1 20,6.9 2.4,6.9 6.4,2.9 5.5,2 "></polygon></svg><span class="ct-ratio" style="padding-bottom: 100%"></span></figure>					
+					<div class="item-content">
+						<span>
+							Previous <span>&nbsp;Post</span>						</span>
+
+													<h4 class="item-title">
+								Data Structures and Algorithms in C++							</h4>
+											</div>
+
+				</a>
+			
+							<a href="https://thecleverprogrammer.com/2020/11/25/gender-classification-with-python/" class="nav-item-next">
+					<div class="item-content">
+						<span>
+							Next <span>&nbsp;Post</span>						</span>
+
+													<h4 class="item-title">
+								Gender Classification with Python							</h4>
+											</div>
+
+											<figure class="ct-image-container"><img width="300" height="169" src="./Sentiment Analysis Projects with Python_files/Machine-Learning-Project-on-Gender-Classification.png" class="attachment-medium size-medium jetpack-lazy-image jetpack-lazy-image--handled" alt="Gender Classification with Python" loading="eager" data-attachment-id="10010" data-permalink="https://thecleverprogrammer.com/2020/11/25/gender-classification-with-python/machine-learning-project-on-gender-classification/" data-orig-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?fit=1280%2C720&amp;ssl=1" data-orig-size="1280,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Machine Learning Project on Gender Classification" data-image-description="" data-medium-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?fit=1024%2C576&amp;ssl=1" srcset="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?w=1280&amp;ssl=1 1280w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?resize=300%2C169&amp;ssl=1 300w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?resize=1024%2C576&amp;ssl=1 1024w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?resize=768%2C432&amp;ssl=1 768w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Machine-Learning-Project-on-Gender-Classification.png?resize=1200%2C675&amp;ssl=1 1200w" data-object-fit="~" itemprop="image" data-lazy-loaded="1" sizes="(max-width: 300px) 100vw, 300px"><svg width="20px" height="15px" viewBox="0 0 20 15"><polygon points="14.5,2 13.6,2.9 17.6,6.9 0,6.9 0,8.1 17.6,8.1 13.6,12.1 14.5,13 20,7.5 "></polygon></svg><span class="ct-ratio" style="padding-bottom: 100%"></span></figure>									</a>
+			
+		</nav>
+
+	
+	</article>
+
+				</section>
+
+			
+	<aside class="ct-hidden-md" data-type="type-1" id="sidebar" itemtype="https://schema.org/WPSideBar" itemscope="itemscope" role="complementary" style="position: sticky; top: -12px;">
+
+		<div class="ct-sidebar" data-sticky="">
+			<div class="ct-widget ai_widget ai-sticky-widget"><div class="code-block code-block-2" style="margin: 8px auto; text-align: center; display: block; clear: both;">
+<script async="" src="./Sentiment Analysis Projects with Python_files/f.txt"></script>
+<!-- new articles -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4476837837997013" data-ad-slot="4629281049" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div><div class="ct-widget widget_search">
+
+<form role="search" method="get" class="search-form" action="https://thecleverprogrammer.com/" data-live-results="">
+	<div class="ct-search-input">
+		<input type="search" placeholder="Search" value="" name="s" autocomplete="off" title="Search Input">
+
+		<button class="search-submit" aria-label="Search">
+			<span hidden="">Search</span>
+			<i>
+				<svg width="12px" height="12px" viewBox="0 0 24 24">
+
+					<path d="M23.3,23.3c-0.9,0.9-2.3,0.9-3.2,0l-4-4c-1.6,1-3.6,1.7-5.7,1.7C4.7,21,0,16.3,0,10.5S4.7,0,10.5,0C16.3,0,21,4.7,21,10.5
+					c0,2.1-0.6,4-1.7,5.7l4,4C24.2,21,24.2,22.5,23.3,23.3z M10.5,3C6.4,3,3,6.4,3,10.5S6.4,18,10.5,18c4.1,0,7.5-3.4,7.5-7.5
+					C18,6.4,14.7,3,10.5,3z"></path>
+				</svg>
+			</i>
+
+			<span data-loader="circles"><span></span><span></span><span></span></span>
+		</button>
+
+		
+			</div>
+</form>
+
+
+</div>		</div>
+	</aside>
+
+	
+		</div>
+
+	</div>
+
+
+		<div class="ct-related-posts-container">
+		<div class="ct-container">
+	
+		<div class="ct-related-posts" data-columns="4">
+			<h3 class="ct-block-title">
+				Related Posts			</h3>
+
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://thecleverprogrammer.com/2021/05/28/video-game-sales-prediction-model-with-python/" aria-label="Video Game Sales Prediction Model with Python"><img width="768" height="432" src="./Sentiment Analysis Projects with Python_files/Video-Game-Sales-Prediction-Model-with-Python.png" class="attachment-medium_large size-medium_large jetpack-lazy-image jetpack-lazy-image--handled" alt="Video Game Sales Prediction Model with Python" loading="eager" data-attachment-id="14168" data-permalink="https://thecleverprogrammer.com/2021/05/28/video-game-sales-prediction-model-with-python/video-game-sales-prediction-model-with-python/" data-orig-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?fit=1920%2C1080&amp;ssl=1" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Video Game Sales Prediction Model with Python" data-image-description="" data-medium-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?fit=1024%2C576&amp;ssl=1" data-object-fit="~" data-lazy-loaded="1" sizes="(max-width: 768px) 100vw, 768px" srcset="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?w=1920&amp;ssl=1 1920w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?resize=300%2C169&amp;ssl=1 300w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?resize=1024%2C576&amp;ssl=1 1024w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?resize=768%2C432&amp;ssl=1 768w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?resize=1536%2C864&amp;ssl=1 1536w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Video-Game-Sales-Prediction-Model-with-Python.png?resize=1200%2C675&amp;ssl=1 1200w"><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<h3 class="related-entry-title" itemprop="name">
+						<a href="https://thecleverprogrammer.com/2021/05/28/video-game-sales-prediction-model-with-python/" itemprop="url">Video Game Sales Prediction Model with Python</a>
+					</h3>
+
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2021-05-28T18:12:55+05:30">May 28, 2021</time></li></ul>				</article>
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://thecleverprogrammer.com/2021/05/28/advanced-machine-learning-projects/" aria-label="Advanced Machine Learning Projects"><img width="768" height="432" src="./Sentiment Analysis Projects with Python_files/Advanced-Machine-Learning-Projects-with-Python.png" class="attachment-medium_large size-medium_large jetpack-lazy-image jetpack-lazy-image--handled" alt="Advanced Machine Learning Projects" loading="eager" data-attachment-id="14153" data-permalink="https://thecleverprogrammer.com/2021/05/28/advanced-machine-learning-projects/advanced-machine-learning-projects-with-python/" data-orig-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?fit=1920%2C1080&amp;ssl=1" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Advanced Machine Learning Projects with Python" data-image-description="" data-medium-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?fit=1024%2C576&amp;ssl=1" data-object-fit="~" data-lazy-loaded="1" sizes="(max-width: 768px) 100vw, 768px" srcset="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?w=1920&amp;ssl=1 1920w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?resize=300%2C169&amp;ssl=1 300w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?resize=1024%2C576&amp;ssl=1 1024w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?resize=768%2C432&amp;ssl=1 768w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?resize=1536%2C864&amp;ssl=1 1536w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Advanced-Machine-Learning-Projects-with-Python.png?resize=1200%2C675&amp;ssl=1 1200w"><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<h3 class="related-entry-title" itemprop="name">
+						<a href="https://thecleverprogrammer.com/2021/05/28/advanced-machine-learning-projects/" itemprop="url">Advanced Machine Learning Projects</a>
+					</h3>
+
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2021-05-28T14:20:33+05:30">May 28, 2021</time></li></ul>				</article>
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://thecleverprogrammer.com/2021/05/27/read-images-using-python/" aria-label="Read Images using Python"><img width="768" height="432" src="./Sentiment Analysis Projects with Python_files/Learn-How-to-Read-Images-using-Python.png" class="attachment-medium_large size-medium_large jetpack-lazy-image jetpack-lazy-image--handled" alt="Read Images using Python" loading="eager" data-attachment-id="14147" data-permalink="https://thecleverprogrammer.com/2021/05/27/read-images-using-python/learn-how-to-read-images-using-python/" data-orig-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?fit=1920%2C1080&amp;ssl=1" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Learn How to Read Images using Python" data-image-description="" data-medium-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?fit=1024%2C576&amp;ssl=1" data-object-fit="~" data-lazy-loaded="1" sizes="(max-width: 768px) 100vw, 768px" srcset="https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?w=1920&amp;ssl=1 1920w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?resize=300%2C169&amp;ssl=1 300w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?resize=1024%2C576&amp;ssl=1 1024w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?resize=768%2C432&amp;ssl=1 768w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?resize=1536%2C864&amp;ssl=1 1536w, https://i2.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Learn-How-to-Read-Images-using-Python.png?resize=1200%2C675&amp;ssl=1 1200w"><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<h3 class="related-entry-title" itemprop="name">
+						<a href="https://thecleverprogrammer.com/2021/05/27/read-images-using-python/" itemprop="url">Read Images using Python</a>
+					</h3>
+
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2021-05-27T17:39:43+05:30">May 27, 2021</time></li></ul>				</article>
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://thecleverprogrammer.com/2021/05/27/data-science-case-studies-on-clustering/" aria-label="Data Science Case Studies on Clustering"><img width="768" height="432" src="./Sentiment Analysis Projects with Python_files/Data-Science-Case-Studies-on-Clustering.png" class="attachment-medium_large size-medium_large jetpack-lazy-image jetpack-lazy-image--handled" alt="Data Science Case Studies on Clustering" loading="eager" data-attachment-id="14131" data-permalink="https://thecleverprogrammer.com/2021/05/27/data-science-case-studies-on-clustering/data-science-case-studies-on-clustering/" data-orig-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?fit=1920%2C1080&amp;ssl=1" data-orig-size="1920,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Data Science Case Studies on Clustering" data-image-description="" data-medium-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?fit=300%2C169&amp;ssl=1" data-large-file="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?fit=1024%2C576&amp;ssl=1" data-object-fit="~" data-lazy-loaded="1" sizes="(max-width: 768px) 100vw, 768px" srcset="https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?w=1920&amp;ssl=1 1920w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?resize=300%2C169&amp;ssl=1 300w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?resize=1024%2C576&amp;ssl=1 1024w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?resize=768%2C432&amp;ssl=1 768w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?resize=1536%2C864&amp;ssl=1 1536w, https://i1.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/05/Data-Science-Case-Studies-on-Clustering.png?resize=1200%2C675&amp;ssl=1 1200w"><span class="ct-ratio" style="padding-bottom: 56.3%"></span></a>
+					<h3 class="related-entry-title" itemprop="name">
+						<a href="https://thecleverprogrammer.com/2021/05/27/data-science-case-studies-on-clustering/" itemprop="url">Data Science Case Studies on Clustering</a>
+					</h3>
+
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2021-05-27T13:43:46+05:30">May 27, 2021</time></li></ul>				</article>
+					</div>
+
+			</div>
+	</div>
+	
+	
+				<div class="ct-comments-container">
+			<div class="ct-container-narrow">
+		
+				
+
+<div class="ct-comments" id="comments">
+	
+	
+		<div id="respond" class="comment-respond">
+							<h3 id="reply-title" class="comment-reply-title">Leave a Reply					<small><a rel="nofollow" id="cancel-comment-reply-link" href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#respond" style="display:none;">Cancel reply</a></small>
+				</h3>
+						<form id="commentform" class="comment-form">
+				<iframe title="Comment Form" src="./Sentiment Analysis Projects with Python_files/saved_resource(6).html" name="jetpack_remote_comment" style="width: 100%; height: 57.8px; border: 0px;" class="jetpack_remote_comment" id="jetpack_remote_comment" sandbox="allow-same-origin allow-top-navigation allow-scripts allow-forms allow-popups" scrolling="no">
+									</iframe>
+									<!--[if !IE]><!-->
+					<script>
+						document.addEventListener('DOMContentLoaded', function () {
+							var commentForms = document.getElementsByClassName('jetpack_remote_comment');
+							for (var i = 0; i < commentForms.length; i++) {
+								commentForms[i].allowTransparency = false;
+								commentForms[i].scrolling = 'no';
+							}
+						});
+					</script>
+					<!--<![endif]-->
+							<input id="ak_js" name="ak_js" type="hidden" value="1622223177256"></form>
+		</div>
+
+		
+		<input type="hidden" name="comment_parent" id="comment_parent" value="">
+
+		
+</div>
+
+					</div>
+		</div>
+		
+		</main>
+
+	<footer class="site-footer" itemscope="" itemtype="https://schema.org/WPFooter"><div data-row="top"><div class="ct-container" data-stack="tablet"><div data-column="socials">
+<div class="ct-footer-socials ">
+
+	
+		<div class="ct-social-box" data-type="simple" data-size="custom" data-color="custom">
+			
+							
+				<a href="https://www.facebook.com/thecleverprogrammer" target="_blank" rel="opener" data-network="facebook" aria-label="Facebook">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Facebook					</span>
+				</a>
+							
+				<a href="https://www.instagram.com/aman.kharwal/" target="_blank" rel="opener" data-network="instagram" aria-label="Instagram">
+					
+				<svg width="20" height="20" viewBox="0 0 20 20">
+					<circle cx="10" cy="10" r="3.3"></circle>
+					<path d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S16.3,5,15.8,5z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Instagram					</span>
+				</a>
+							
+				<a href="https://medium.com/@amankharwal" target="_blank" rel="opener" data-network="medium" aria-label="Medium">
+					
+				<svg width="20" height="20" viewBox="0 0 20 20">
+					<path d="M2.4,5.3c0-0.2-0.1-0.5-0.3-0.7L0.3,2.4V2.1H6l4.5,9.8l3.9-9.8H20v0.3l-1.6,1.5c-0.1,0.1-0.2,0.3-0.2,0.4v11.2c0,0.2,0,0.3,0.2,0.4l1.6,1.5v0.3h-7.8v-0.3l1.6-1.6c0.2-0.2,0.2-0.2,0.2-0.4V6.5L9.4,17.9H8.8L3.6,6.5v7.6c0,0.3,0.1,0.6,0.3,0.9L6,17.6v0.3H0v-0.3L2.1,15c0.2-0.2,0.3-0.6,0.3-0.9V5.3z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						Medium					</span>
+				</a>
+							
+				<a href="https://www.linkedin.com/in/aman-kharwal-566baa146/" target="_blank" rel="opener" data-network="linkedin" aria-label="LinkedIn">
+					
+				<svg width="20px" height="20px" viewBox="0 0 20 20">
+					<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"></path>
+				</svg>
+			
+					<span class="ct-label">
+						LinkedIn					</span>
+				</a>
+			
+					</div>
+
+	</div>
+
+</div><div data-column="menu">
+<nav id="footer-menu" class="footer-menu" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+
+	<ul id="menu-primary-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8468"><a href="https://thecleverprogrammer.com/">Thecleverprogrammer</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-5638"><a href="https://thecleverprogrammer.com/machine-learning/">All Articles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://thecleverprogrammer.com/about/">About</a></li>
+</ul>
+</nav>
+</div></div></div><div data-row="bottom"><div class="ct-container"><div data-column="copyright">
+<div class="ct-footer-copyright">
+
+	<p>Copyright © Thecleverprogrammer.com 2021&nbsp;</p></div>
+</div></div></div></footer></div>
+
+
+	<a href="https://thecleverprogrammer.com/2020/11/25/sentiment-analysis-projects-with-python/#" class="ct-back-to-top ct-hidden-sm ct-show" data-shape="square" data-alignment="right" title="Go to top">
+
+		<svg width="12" height="12" viewBox="0 0 20 20"><path d="M10,0L9.4,0.6L0.8,9.1l1.2,1.2l7.1-7.1V20h1.7V3.3l7.1,7.1l1.2-1.2l-8.5-8.5L10,0z"></path></svg>
+		
+	</a>
+
+	
+		<div id="search-modal" class="ct-panel" data-behaviour="modal">
+			<div class="close-button">
+				<span class="ct-trigger closed">
+					<span></span>
+				</span>
+			</div>
+
+			<div class="content-container" data-align="middle">
+				
+
+<form role="search" method="get" class="search-form" action="https://thecleverprogrammer.com/" data-live-results="">
+	<div class="ct-search-input">
+		<input type="search" class="modal-field" placeholder="Search" value="" name="s" autocomplete="off" title="Search Input">
+
+		<button class="search-submit" aria-label="Search">
+			<span hidden="">Search</span>
+			<i>
+				<svg width="12px" height="12px" viewBox="0 0 24 24">
+
+					<path d="M23.3,23.3c-0.9,0.9-2.3,0.9-3.2,0l-4-4c-1.6,1-3.6,1.7-5.7,1.7C4.7,21,0,16.3,0,10.5S4.7,0,10.5,0C16.3,0,21,4.7,21,10.5
+					c0,2.1-0.6,4-1.7,5.7l4,4C24.2,21,24.2,22.5,23.3,23.3z M10.5,3C6.4,3,3,6.4,3,10.5S6.4,18,10.5,18c4.1,0,7.5-3.4,7.5-7.5
+					C18,6.4,14.7,3,10.5,3z"></path>
+				</svg>
+			</i>
+
+			<span data-loader="circles"><span></span><span></span><span></span></span>
+		</button>
+
+		
+					<input type="hidden" name="ct_post_type" value="post:page:product:jetpack-portfolio">
+			</div>
+</form>
+
+
+			</div>
+		</div>
+
+		<div id="offcanvas" class="ct-panel" data-behaviour="right-side" data-device="mobile"><div class="close-button">
+				<span class="ct-trigger closed">
+					<span></span>
+				</span>
+			</div><div class="content-container"><section data-align="left">
+<nav class="mobile-menu" data-id="mobile-menu" data-type="type-1">
+	<ul id="menu-primary-2" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-8468"><a href="https://thecleverprogrammer.com/">Thecleverprogrammer</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-5638"><a href="https://thecleverprogrammer.com/machine-learning/">All Articles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://thecleverprogrammer.com/about/">About</a></li>
+</ul></nav>
+</section></div></div><!--  -->
+<script defer="" id="bilmur" data-provider="wordpress.com" data-service="atomic" src="./Sentiment Analysis Projects with Python_files/bilmur.min.js.download"></script>
+<a rel="nofollow" style="display:none;" href="https://thecleverprogrammer.com/?blackhole=eb13ecd03b" title="Do NOT follow this link or you will be banned from the site!">Data Science | Machine Learning | Python | C++ | Coding | Programming | JavaScript</a>
+<script id="ct-scripts-js-extra">
+var ct_localizations = {"ajax_url":"https:\/\/thecleverprogrammer.com\/wp-admin\/admin-ajax.php","nonce":"5148201635","public_url":"https:\/\/thecleverprogrammer.com\/wp-content\/themes\/blocksy\/static\/bundle\/","rest_url":"https:\/\/thecleverprogrammer.com\/wp-json\/","search_url":"https:\/\/thecleverprogrammer.com\/search\/QUERY_STRING\/","show_more_text":"Show more","more_text":"More","internet_explorer_template":"<div class=\"ct-unsuported-browser\">\r\n\t<svg width=\"120px\" height=\"120px\" viewBox=\"0 0 100 100\">\r\n\t\t<path d=\"M14.8,54.7c-1.3,0-2.3-1-2.3-2.3v-4.7c0-1.3,1-2.3,2.3-2.3s2.3,1,2.3,2.3v4.7C17.2,53.7,16.1,54.7,14.8,54.7zM35.6,79.6l-4.1-2.3c-1.1-0.6-2.6-0.2-3.2,0.9s-0.2,2.6,0.9,3.2l4.1,2.3c0.4,0.2,0.8,0.3,1.2,0.3c0.8,0,1.6-0.4,2-1.2C37.1,81.7,36.7,80.2,35.6,79.6z M68.4,77.3l-4.1,2.3c-1.1,0.6-1.5,2.1-0.9,3.2c0.5,0.8,1.2,1.2,2,1.2c0.4,0,0.8-0.1,1.2-0.3l4.1-2.3c1.1-0.6,1.5-2.1,0.9-3.2S69.5,76.6,68.4,77.3zM82.8,47.7v4.7c0,1.3,1,2.3,2.3,2.3s2.3-1,2.3-2.3v-4.7c0-1.3-1-2.3-2.3-2.3S82.8,46.3,82.8,47.7zM70.8,18.7l-4.1-2.3c-1.1-0.6-2.6-0.2-3.2,0.9s-0.2,2.6,0.9,3.2l4.1,2.3c0.4,0.2,0.8,0.3,1.2,0.3c0.8,0,1.6-0.4,2-1.2C72.3,20.8,71.9,19.3,70.8,18.7zM33.3,16.3l-4.1,2.3c-1.1,0.6-1.5,2.1-0.9,3.2c0.5,0.8,1.2,1.2,2,1.2c0.4,0,0.8-0.1,1.2-0.3l4.1-2.3c1.1-0.6,1.5-2.1,0.9-3.2S34.4,15.7,33.3,16.3z M60.2,10.2c0,5.6-4.5,10.2-10.2,10.2s-10.2-4.5-10.2-10.2S44.4,0,50,0S60.2,4.5,60.2,10.2zM55.5,10.2c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S55.5,13.2,55.5,10.2z M60.2,89.8c0,5.6-4.5,10.2-10.2,10.2s-10.2-4.5-10.2-10.2S44.4,79.7,50,79.7S60.2,84.2,60.2,89.8zM55.5,89.8c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S55.5,92.9,55.5,89.8zM95.3,70.3c0,5.6-4.5,10.2-10.2,10.2S75,75.9,75,70.3s4.5-10.2,10.2-10.2S95.3,64.7,95.3,70.3zM90.6,70.3c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S90.6,73.4,90.6,70.3zM75,29.7c0-5.6,4.5-10.2,10.2-10.2s10.2,4.5,10.2,10.2s-4.5,10.2-10.2,10.2S75,35.3,75,29.7zM79.7,29.7c0,3,2.4,5.5,5.5,5.5s5.5-2.4,5.5-5.5s-2.4-5.5-5.5-5.5S79.7,26.6,79.7,29.7z M25,29.7c0,5.6-4.5,10.2-10.2,10.2S4.7,35.3,4.7,29.7s4.5-10.2,10.2-10.2S25,24.1,25,29.7zM20.3,29.7c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S20.3,32.7,20.3,29.7zM25,70.3c0,5.6-4.5,10.2-10.2,10.2S4.7,75.9,4.7,70.3s4.5-10.2,10.2-10.2S25,64.7,25,70.3z M20.3,70.3c0-3-2.4-5.5-5.5-5.5s-5.5,2.4-5.5,5.5s2.4,5.5,5.5,5.5S20.3,73.4,20.3,70.3z\"\/>\r\n\t\t<path d=\"M64.6,52.7c0,1-1.9,3.9-4.8,5.3c-1.7,0.9-7-3.4-5.9-4.8s3.4,0.5,4.7-0.5C63.2,49.5,64.6,51.6,64.6,52.7zM71.9,50c0,12-9.8,21.9-21.9,21.9S28.1,62,28.1,50S38,28.1,50,28.1S71.9,38,71.9,50z M67.2,50c0-1.6-0.2-3.1-0.8-4.5l-1.2-0.3h-1.8c-1.1,0-2.1-0.5-2.7-1.3C59.8,42.7,59,41,58.4,41c-0.8,0-2.1,5.5-4.8,5.5c-2.1,0-3.9-4.6-3.3-6.2c0.9-2.3,2.8-1.8,4.8-2.7c0.9-0.4,1.5-1.3,1.5-2.3v-1.2c-2-0.9-4.2-1.3-6.6-1.3c-8.6,0-15.7,6.3-17.1,14.6l1.2-0.1c0.7,0.1,1.3,0.4,1.4,0.9c0.3,2-1.8,2.7-1.2,4.3c0.5,1.5,2.5,2,3.5,1c1-0.9,2.2-3,2.4-4.9c0.3-3.3,4.4-4.8,6.1-1.8c0.5,0.9,0.2,2.5-0.8,3.6s-2.7,2-2.6,3.4c0.2,1.2,4.8,1.4,3.4,6.7c-0.2,0.8-0.6,1.5-1,2.1c-0.3,0.5-0.7,0.9-1.2,1.3c-0.7,0.5-1.4,0.9-2,1.2H42c2.4,1.2,5.2,2,8,2C59.5,67.2,67.2,59.5,67.2,50z\"\/>\r\n\t<\/svg>\r\n\r\n\r\n\t<h2>\r\n\t\tYou are using an old or unsupported browser\t<\/h2>\r\n\r\n\t<p>\r\n\t\tFor <b><a href=\"https:\/\/mashable.com\/article\/internet-explorer-vulnerability-just-stop-using-it\/\" target=\"_blank\">security reasons<\/a><\/b> and to get the most out of your theme please upgrade to the latest version of <a href=\"https:\/\/www.microsoft.com\/en-us\/windows\/microsoft-edge\" target=\"_blank\">your browser<\/a> or use one of these browsers instead <a href=\"https:\/\/www.google.com\/chrome\/\" target=\"_blank\">Chrome<\/a>, <a href=\"https:\/\/support.apple.com\/downloads\/safari\" target=\"_blank\">Safari<\/a> or <a href=\"https:\/\/www.mozilla.org\/en-US\/firefox\/new\/\" target=\"_blank\">Firefox <\/a>.\t<\/p>\r\n<\/div>\r\n\r\n"};
+</script>
+<script id="jetpack-lazy-images-js-extra">
+var jetpackLazyImagesL10n = {"loading_warning":"Images are still loading. Please cancel your print and try again."};
+</script>
+<script type="text/javascript" src="./Sentiment Analysis Projects with Python_files/saved_resource(5)"></script>
+
+		<!--[if IE]>
+		<script type="text/javascript">
+			if ( 0 === window.location.hash.indexOf( '#comment-' ) ) {
+				// window.location.reload() doesn't respect the Hash in IE
+				window.location.hash = window.location.hash;
+			}
+		</script>
+		<![endif]-->
+		<script type="text/javascript">
+			(function () {
+				var comm_par_el = document.getElementById( 'comment_parent' ),
+					comm_par = ( comm_par_el && comm_par_el.value ) ? comm_par_el.value : '',
+					frame = document.getElementById( 'jetpack_remote_comment' ),
+					tellFrameNewParent;
+
+				tellFrameNewParent = function () {
+					if ( comm_par ) {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=175928511&postid=9994&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.7&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=dce52450cac1b496547fe5d962fe902a6439657f#parent=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+					} else {
+						frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=175928511&postid=9994&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=1&avatar_default=mystery&greeting=Leave+a+Reply&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=9.7&show_cookie_consent=10&has_cookie_consent=0&token_key=%3Bnormal%3B&sig=dce52450cac1b496547fe5d962fe902a6439657f#parent=https%3A%2F%2Fthecleverprogrammer.com%2F2020%2F11%2F25%2Fsentiment-analysis-projects-with-python%2F";
+					}
+				};
+
+				
+				if ( 'undefined' !== typeof addComment ) {
+					addComment._Jetpack_moveForm = addComment.moveForm;
+
+					addComment.moveForm = function ( commId, parentId, respondId, postId ) {
+						var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ),
+							cancelClick, cancel;
+
+						if ( false === returnValue ) {
+							cancel = document.getElementById( 'cancel-comment-reply-link' );
+							cancelClick = cancel.onclick;
+							cancel.onclick = function () {
+								var cancelReturn = cancelClick.call( this );
+								if ( false !== cancelReturn ) {
+									return cancelReturn;
+								}
+
+								if ( ! comm_par ) {
+									return cancelReturn;
+								}
+
+								comm_par = 0;
+
+								tellFrameNewParent();
+
+								return cancelReturn;
+							};
+						}
+
+						if ( comm_par == parentId ) {
+							return returnValue;
+						}
+
+						comm_par = parentId;
+
+						tellFrameNewParent();
+
+						return returnValue;
+					};
+				}
+
+				
+				// Do the post message bit after the dom has loaded.
+				document.addEventListener( 'DOMContentLoaded', function () {
+					var iframe_url = "https:\/\/jetpack.wordpress.com";
+					if ( window.postMessage ) {
+						if ( document.addEventListener ) {
+							window.addEventListener( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						} else if ( document.attachEvent ) {
+							window.attachEvent( 'message', function ( event ) {
+								var origin = event.origin.replace( /^http:\/\//i, 'https://' );
+								if ( iframe_url.replace( /^http:\/\//i, 'https://' ) !== origin ) {
+									return;
+								}
+								jQuery( frame ).height( event.data );
+							});
+						}
+					}
+				})
+
+			})();
+		</script>
+
+		<script src="./Sentiment Analysis Projects with Python_files/e-202121.js.download" defer=""></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.7',blog:'175928511',post:'9994',tz:'5.5',srv:'thecleverprogrammer.com'} ]);
+	_stq.push([ 'clickTrackerInit', '175928511', '9994' ]);
+</script>
+<script>
+/* <![CDATA[ */
+ai_front = {"insertion_before":"BEFORE","insertion_after":"AFTER","insertion_prepend":"PREPEND CONTENT","insertion_append":"APPEND CONTENT","insertion_replace_content":"REPLACE CONTENT","insertion_replace_element":"REPLACE ELEMENT","visible":"VISIBLE","hidden":"HIDDEN","fallback":"FALLBACK","automatically_placed":"Automatically placed by AdSense Auto ads code","cancel":"Cancel","use":"Use","add":"Add","parent":"Parent","cancel_element_selection":"Cancel element selection","select_parent_element":"Select parent element","css_selector":"CSS selector","use_current_selector":"Use current selector","element":"ELEMENT","path":"PATH","selector":"SELECTOR"};
+/* ]]> */
+function ai_run_scripts(){jQuery(document).ready(function(g){var n=function(c){var h=0,k=15,l=c(document).width();c(".ai-sticky-widget").each(function(){for(var b=c(this),m=b.width(),d=!1,a=b.parent();"BODY"!=a.prop("tagName");){if(a.hasClass("theiaStickySidebar")){d=!0;break}var e=a.parent(),f=e.width();if(f>1.2*m||f>l/2)break;a=e}d||(b=a.offset().top-b.offset().top+k,0==h?("sticky"!=a.css("position")||isNaN(parseInt(a.css("top")))||a.css("top")<b)&&a.css("position",
+"sticky").css("position","-webkit-sticky").css("top",b):a.theiaStickySidebar({additionalMarginTop:b,sidebarBehavior:"stick-to-top"}))})};"undefined"==typeof ai_sticky_sidebar_delay&&(ai_sticky_sidebar_delay=200);setTimeout(function(){n(g)},ai_sticky_sidebar_delay)});
+
+ai_js_code = true;
+}
+function ai_wait_for_jquery(){function b(f,c){var a=document.createElement("script");a.src=f;var d=document.getElementsByTagName("head")[0],e=!1;a.onload=a.onreadystatechange=function(){e||this.readyState&&"loaded"!=this.readyState&&"complete"!=this.readyState||(e=!0,c&&c(),a.onload=a.onreadystatechange=null,d.removeChild(a))};d.appendChild(a)}window.jQuery&&window.jQuery.fn?ai_run_scripts():(ai_jquery_waiting_counter++,4==ai_jquery_waiting_counter&&b("https://thecleverprogrammer.com/wp-includes/js/jquery/jquery.js?ver=3.5.1",function(){b("https://thecleverprogrammer.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=5.7.2",
+null)}),30>ai_jquery_waiting_counter&&setTimeout(function(){ai_wait_for_jquery()},50))}ai_jquery_waiting_counter=0;ai_wait_for_jquery();
+
+</script>
+
+
+
+</body></html>
