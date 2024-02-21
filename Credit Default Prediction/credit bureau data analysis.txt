@@ -1,0 +1,9 @@
+SELECT * FROM [dbo].[demographic data]
+WHERE Performance_Tag =1
+ 
+ 
+
+
+
+
+
