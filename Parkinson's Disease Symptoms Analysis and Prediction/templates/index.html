@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkinson's Disease Prediction</title>
+</head>
+<body>
+    <h1>Parkinson's Disease Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="mdvp_fo">MDVP:Fo(Hz):</label>
+        <input type="text" id="mdvp_fo" name="mdvp_fo"><br><br>
+        
+        <label for="mdvp_fhi">MDVP:Fhi(Hz):</label>
+        <input type="text" id="mdvp_fhi" name="mdvp_fhi"><br><br>
+        
+        <label for="mdvp_flo">MDVP:Flo(Hz):</label>
+        <input type="text" id="mdvp_flo" name="mdvp_flo"><br><br>
+        
+        <label for="mdvp_jitter">MDVP:Jitter(%):</label>
+        <input type="text" id="mdvp_jitter" name="mdvp_jitter"><br><br>
+        
+        <label for="mdvp_rap">MDVP:RAP:</label>
+        <input type="text" id="mdvp_rap" name="mdvp_rap"><br><br>
+        
+        <label for="mdvp_ppq">MDVP:PPQ:</label>
+        <input type="text" id="mdvp_ppq" name="mdvp_ppq"><br><br>
+        
+        <label for="jitter_ddp">Jitter:DDP:</label>
+        <input type="text" id="jitter_ddp" name="jitter_ddp"><br><br>
+        
+        <label for="mdvp_apq">MDVP:APQ:</label>
+        <input type="text" id="mdvp_apq" name="mdvp_apq"><br><br>
+        
+        <label for="nhr">NHR:</label>
+        <input type="text" id="nhr" name="nhr"><br><br>
+        
+        <label for="hnr">HNR:</label>
+        <input type="text" id="hnr" name="hnr"><br><br>
+        
+        <label for="rpde">RPDE:</label>
+        <input type="text" id="rpde" name="rpde"><br><br>
+        
+        <label for="dfa">DFA:</label>
+        <input type="text" id="dfa" name="dfa"><br><br>
+        
+        <label for="spread2">spread2:</label>
+        <input type="text" id="spread2" name="spread2"><br><br>
+        
+        <label for="d2">D2:</label>
+        <input type="text" id="d2" name="d2"><br><br>
+        
+        <label for="ppe">PPE:</label>
+        <input type="text" id="ppe" name="ppe"><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
