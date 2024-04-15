@@ -6,7 +6,7 @@ st.set_page_config(layout="wide")
 # Function to predict Parkinson's disease
 def predict_parkinsons(features):
     # Load the trained machine learning model
-    model = joblib.load('shubhamsawant0601/Data_Science_Projects/Parkinsons_Disease_Symptoms_Analysis_and_Prediction/parkinsons_model.pkl')
+    model = joblib.load('Data_Science_Projects/Parkinsons_Disease_Symptoms_Analysis_and_Prediction/parkinsons_model.pkl')
     # Convert input features to a numpy array and reshape it
     features_array = np.array(features).reshape(1, -1)
     # Make prediction
