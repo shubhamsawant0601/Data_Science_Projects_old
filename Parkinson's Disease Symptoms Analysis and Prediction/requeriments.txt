@@ -80,7 +80,7 @@ packaging==23.2
 pandas==2.2.1
 pandocfilters==1.5.0
 parso==0.8.3
-pillow==10.2.0
+pillow==10.3.0
 pkginfo==1.9.6
 platformdirs==4.1.0
 prometheus-client==0.19.0
