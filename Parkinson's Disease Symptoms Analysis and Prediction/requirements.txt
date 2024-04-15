@@ -1,4 +1,4 @@
 streamlit
-joblib==1.0.1
+joblib==1.2.0
 numpy
 glob
