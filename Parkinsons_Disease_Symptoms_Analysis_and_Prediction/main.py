@@ -74,7 +74,7 @@ def function_sql_server_queries_page():
     st.title('SQL Server Code for Analysis Using SQL Queries')
 
     # Read SQL code from .sql file
-    with open('SQL Server Queries for Data Analysis.sql', 'r') as file:
+    with open('SQL_Server_Queries_for_Data_Analysis.sql', 'r') as file:
         sql_code = file.read()
     
     st.code(sql_code, language='sql')
@@ -83,7 +83,7 @@ def function_sql_server_queries_page():
 def function_power_bi_dashboard_page():
     st.title('Power-Bi Dashboard Analysis')
     # Display PNG file
-    image = open("Dashoboard Pic.png", "rb").read()
+    image = open("Dashoboard_Pic.png", "rb").read()
     st.image(image, caption='Power-Bi Dashboard', use_column_width=True)
 
 def main():
